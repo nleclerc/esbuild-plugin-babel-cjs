@@ -1,13 +1,12 @@
 {
-	"name": "esbuild-plugin-babel",
+	"name": "esbuild-plugin-babel-cjs",
 	"version": "0.2.3",
-	"description": "Babel plugin for esbuild.",
-	"repository": "nativew/esbuild-plugin-babel",
+	"description": "Babel plugin for esbuild (CJS compatible).",
+	"repository": "nleclerc/esbuild-plugin-babel-cjs",
 	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
 	"license": "ISC",
 	"exports": "./src/index.js",
 	"main": "src/index.js",
-	"type": "module",
 	"scripts": {
 		"format": "prettier --write --ignore-unknown '**/*'"
 	},
@@ -15,7 +14,7 @@
 		"@babel/core": "^7.0.0"
 	},
 	"devDependencies": {
-		"@babel/core": "7.13.10",
+		"@babel/core": "7.23.9",
 		"prettier": "^2.2.1"
 	},
 	"files": [
@@ -24,6 +23,7 @@
 	"keywords": [
 		"babel",
 		"esbuild",
-		"esbuild-plugin"
+		"esbuild-plugin",
+		"commonjs"
 	]
 }

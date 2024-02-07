@@ -1,6 +1,6 @@
 <div></div>
 
-# esbuild-plugin-babel
+# esbuild-plugin-babel-cjs
 
 [Babel](https://github.com/babel/babel) plugin for [esbuild](https://github.com/evanw/esbuild).
 
@@ -14,7 +14,7 @@ If not, you can add the Babel plugin you need with this plugin.
 ### Install
 
 ```zsh
-npm install esbuild-plugin-babel -D
+npm install esbuild-plugin-babel-cjs -D
 ```
 
 <br>
@@ -24,8 +24,8 @@ npm install esbuild-plugin-babel -D
 `esbuild.config.js`
 
 ```js
-import esbuild from 'esbuild';
-import babel from 'esbuild-plugin-babel';
+const esbuild = require('esbuild');
+const babel = require('esbuild-plugin-babel');
 
 esbuild
     .build({
@@ -42,7 +42,6 @@ esbuild
 
 ```json
 {
-    "type": "module",
     "scripts": {
         "start": "node esbuild.config.js"
     }
