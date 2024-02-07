@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-plugin-babel-cjs",
-	"version": "0.2.3",
+	"version": "1.0.0",
 	"description": "Babel plugin for esbuild (CJS compatible).",
 	"repository": "nleclerc/esbuild-plugin-babel-cjs",
 	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
